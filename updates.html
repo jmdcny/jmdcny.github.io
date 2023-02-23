@@ -1,0 +1,297 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PNOCS PORTAL</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+</head>
+
+<style>
+body {font-family: "Lato", sans-serif;}
+
+ul.tab {
+    list-style-type: none;
+	margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+	size:auto;
+	position:center;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+	position:absolute;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+	
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+		font-weight:bold;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    padding: 4px;
+}
+
+
+
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+	font-weight:bold;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+	font-size: 14px;
+}
+</style>
+
+<body class="fsize">
+<div class="bg_png">
+
+
+<div id="main"> 
+<!-- header begins -->
+
+ <center>
+  <img src="images/header1.jpg" draggable="false" /></center>
+
+ 
+  <div id="header" align="center">
+	<div id="buttons">
+     <a href="index.html"  class="but" title="">HOME</a>
+      <a href="about.html"  class="but" title="">ABOUT</a>
+      <a href="nocc2.html"  class="but" title="">NOCC</a>
+       <a href="updates.html"  class="but2" title="">TIMELINE</a>
+      <a href="recruitment.html"  class="but" title="">HELP</a>
+   <a href="gallery.html"  class="but" title="">GALLERY</a>
+     
+    </div>
+</div>
+   <!-- <div class="top_top"></div>  -->
+
+    <!-- header ends -->
+    <div class="top_bot"></div>
+    <!-- content begins -->
+     <div id="content">
+    	<div class="text">
+<h1>NOCC Highlights</h1>
+           
+            <table width="101%"><tr><td valign="top" width="25%">
+        
+
+  <ul class="tab">
+  <li><a href="" class="active">2016</a></li>
+  <li><a href="updates1.html" class="tablinks">2015</a></li> 
+ 
+</ul>
+
+ <br />
+   <br />
+   <br />
+   <br />
+
+<button class="accordion">Content to follow...</button>
+<div class="panel">
+  <p align="justify">JMDCNY</p>
+</div>
+
+
+
+
+
+
+<!--Pang last na news ganito ang gamitin ;) -->
+<button class="accordion">Content to follow...</button>
+<div id="foo" class="panel">
+  <p align="justify">JMDCNY</p>
+</div>
+
+
+</center>
+
+    <script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+            
+           
+            
+       
+          
+  <div style="height:24px;"><a class="read" href="#"></a></div></td></tr></table>
+          
+ 
+            
+          <div style="clear: both"></div>
+        </div>   
+        
+        <div style="height:15px"></div>
+      	<div class="razd_h"></div>
+        <div style="height:15px"></div>
+      <div class="text">
+        
+       <p align="left"><Strong> Related Links:</Strong> </p><br />
+        <div id="related">
+        <table width="800" border="2" cellspacing="1" frame="hsides">
+         <div style="float: left;" class="fsize">
+  <tr>
+    <td><a href="www.pma.ph" target="_blank" title="Philippine Military Academy">Philippine Military Academy</a></td>
+    <td><a href="http://navy.mil.ph" target="_blank" title="Philippine Navy">Philippine Navy</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://pafocs.byethost33.com" target="_blank" title="PAFOCS">Philippine Airforce Officer Candidate Sschool</a></td>
+    <td><a href="http://paf.mil.ph/" target="_blank" title="PAF">Philippine Airforce</a></td>
+  </tr>
+  <tr>
+    <td><a href="http://www.army.mil.ph/Recruitment/commisionship.html" target="main" target="_blank" title="PAOCS">Philippine Army Officer Candidate School</a></td>
+    <td><a href="www.army.mil.ph" target="_blank" title="PA">Philippine Army</a></td>
+  </tr>
+  <tr>
+    <td><a href="dnd.gov.ph" target="_blank" title="DND">Department of National Defense</a></td>
+    <td><a href="pnpa.edu.ph" target="_blank" title="PNPA">Philippine National Police Academy</a></td>
+  </tr>
+ 
+</table>
+
+        
+        </div>
+      
+        
+        
+        
+        <div style="clear: both"></div>
+        </div>
+        <div class="razd_h"></div>
+      <div class="text">
+          
+        <center>  <img src="images\PNOCS.png" height="120" width="120"/><br />Philippine Navy Officer Candidate School (PNOCS) <br />San Antonio, Zambales </center>
+        
+        <div style="clear: both"></div>
+      </div>
+      <div class="razd_h"></div>
+    </div>
+    <!-- content ends -->  
+<!-- footer begins -->
+            <div id="footer">
+          		<div style="float: left; width: 500;">
+                
+		            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a> | <a href="developers.html">The Developer</a> 	
+                    <p> <abbr title="JMDCNY"> &copy; Philippine Navy Officer Candidate School. All Rights Reserved 2015. <img src="images/sig.png" /> </abbr></p>
+                    <!-- | <a href="" title="This page validates as XHTML 1.0 Transitional"><abbr title="eXtensible HyperText Markup Language">XHTML</abbr></a> | 
+                    <a href="" title="This page validates as CSS"><abbr title="Cascading Style Sheets">CSS</abbr></a></p> -->
+             	</div>
+                <div style="float: right; width: 500; padding: 0px 0px 0px 0px; height: 37px;">
+                <!--
+                    <a href="#" class="a_fu_i"><img src="images/fu_i4.gif" class="fu_i" alt="" /></a>
+                    <a href="#" class="a_fu_i"><img src="images/fu_i3.gif" class="fu_i" alt="" /></a>
+                    <a href="#" class="a_fu_i"><img src="images/fu_i2.gif" class="fu_i" alt="" /></a>-->
+                    
+          
+                    <a href="http://www.facebook.com/pnocsofficial" class="a_fu_i" target = "main"><abbr title="PNOCS Fanpage"><img src="images/fu_i1.gif" class="fu_i" alt="JM" /></abbr></a>
+                
+                </div>
+             </div>
+        <!-- footer ends -->
+</div>
+
+</div>
+</body>
+</html>

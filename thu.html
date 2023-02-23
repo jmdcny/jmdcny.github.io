@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: "Lato", sans-serif;}
+
+ul.tab {
+    list-style-type: none;
+	margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+	size:auto;
+	display:table;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Float the list items side by side */
+ul.tab li {float: left;}
+
+/* Style the links inside the list items */
+ul.tab li a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.tab li a:hover {
+    background-color: #ddd;
+
+}
+
+/* Create an active/current tablink class */
+ul.tab li a:focus, .active {
+    background-color: #ccc;
+		font-weight:bold;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 6px 12px;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    padding: 4px;
+}
+</style>
+<body>
+
+
+
+<ul class="tab">
+  <li><a href="mon.html" class="tablinks">Monday</a></li>
+  <li><a href="tue.html" class="tablinks">Tuesday</a></li>
+  <li><a href="wed.html" class="tablinks">Wednesday</a></li>
+  <li><a href="" class="active">Thursday</a></li>
+  <li><a href="fri.html" class="tablinks">Friday</a></li>
+  <li><a href="sat.html" class="tablinks">Saturday</a></li>
+  <li><a href="sun.html" class="tablinks">Sunday</a></li>
+</ul>
+
+
+
+
+<center><h3>Schedule of Calls</h3></center>
+<div class="tabcontent">
+ 
+ 
+ <table width="396" border="1" align="center" cellpadding="1" cellspacing="0" class="tb_cont1" id="content2">
+      <tr align="left" valign="middle" bgcolor="#999999">
+        <th width="78" align="center" scope="col">Time</th>
+        <th width="297" align="center" valign="middle" scope="col">Activity</th>
+      </tr>
+      <tr>
+        <td align="center" valign="middle" class="tb_cont1">0400H</td>
+        <td align="center" valign="middle" class="tb_cont1">REVEILLE</td>
+      </tr>
+      <tr bgcolor="#CCCCCC" class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">0415H</td>
+        <td align="center" valign="middle"class="tb_cont1" >Morning Calisthenics &amp; Road Run</td>
+      </tr>
+      <tr class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">0530H</td>
+        <td align="center" valign="middle" class="tb_cont1">Cleaning Station</td>
+      </tr>
+      <tr bgcolor="#CCCCCC" class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">0630H</td>
+        <td align="center" valign="middle" class="tb_cont1">Morning Mess</td>
+      </tr>
+      <tr class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">0745H</td>
+        <td align="center" valign="middle" class="tb_cont1">Police Call</td>
+      </tr>
+      <tr bgcolor="#CCCCCC" class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">0800H</td>
+        <td align="center" valign="middle" class="tb_cont1">Classroom Instruction</td>
+      </tr>
+      <tr class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">1145H</td>
+        <td align="center" valign="middle" class="tb_cont1">Noon Mess</td>
+      </tr>
+      <tr bgcolor="#CCCCCC" class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">1330H</td>
+        <td align="center" valign="middle" class="tb_cont1">Reading Time</td>
+      </tr>
+      <tr class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">1600H</td>
+        <td align="center" valign="middle" class="tb_cont1">Flag Retreat</td>
+      </tr>
+      <tr bgcolor="#CCCCCC" class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">1730H</td>
+        <td align="center" valign="middle" class="tb_cont1">Admin Time</td>
+      </tr>
+      <tr class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">1745H</td>
+        <td align="center" valign="middle" class="tb_cont1">Evening Mess</td>
+      </tr>
+      <tr bgcolor="#CCCCCC" class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">1900H</td>
+        <td align="center" valign="middle" class="tb_cont1">Evening Call to Quarters (ECTQ)</td>
+      </tr>
+      <tr class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">1910H</td>
+        <td align="center" valign="middle" class="tb_cont1">Study Period</td>
+      </tr>
+      <tr bgcolor="#CCCCCC" class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">2130H</td>
+        <td align="center" valign="middle" class="tb_cont1">TATOO</td>
+      </tr>
+      <tr class="tb_cont1">
+        <td align="center" valign="middle" class="tb_cont1">2200H</td>
+        <td align="center" valign="middle" class="tb_cont1">TAPS</td>
+      </tr>
+    </table>
+
+</div>
+
+</center>
+
+    
+</body>
+</html>
+
