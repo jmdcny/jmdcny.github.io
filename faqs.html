@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>PNOCS PORTAL</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+
+</head>
+<style type="text/css">
+.active_h3 {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+}
+.cont {
+	font-family: Tahoma, Geneva, sans-serif;
+    font-size: 12px;
+}
+.cont {
+	font-style: italic;
+}
+.cont {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+button.accordion:after {
+    content: '\02795';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+}
+
+button.accordion.active:after {
+    content: "\2796";
+}
+
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    opacity: 0;
+}
+
+div.panel.show {
+    opacity: 1;
+    max-height: 500px;
+}
+</style>
+<body>
+
+<h2><strong>Frequently Asked Questions</strong></h2>
+<button class="accordion"><strong>What are the requirements for joining?</strong></button>
+<div class="panel">
+  <p>General Requirements<br>
+<br>
+Must be a natural-born Filipino Citizen,<br>
+At least 5 feet in height,<br>
+Must be of good moral character with no pending civil or criminal case,<br>
+Single, never been married, with no child or children to support,<br>
+Must be physically and mentally fit,<br>
+Must be 21 - 28 years old,<br>
+Must be a graduate of any technical course, and<br>
+Must pass the AFP Aptitude Battery Test, IQ and Special Written Examination.<br>
+<br>
+Documentary Requirements<br>
+<br>
+Original and Photocopy of Birth Certificate<br>
+Original and Photocopy of Transcript of Records<br>
+Original and Photocopy of College Diploma<br>
+2"x2" colored picture (2 copies)<br>
+Accomplished Application Form<br>
+NBI Clearance<br>
+Drug Test Result</p>
+</div>
+
+
+
+
+
+
+<!--Pang last na news ganito ang gamitin ;) -->
+<button class="accordion"><strong>Where can I get the application form?</strong> </button>
+<div id="foo" class="panel">
+  <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;You can get the application form <a href="lib/appform.pdf">here</a>.</p>
+</div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].onclick = function(){
+        this.classList.toggle("active");
+        this.nextElementSibling.classList.toggle("show");
+  }
+}
+</script>
+
+
+
+
+
+</body>
+</html>
